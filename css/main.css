@@ -16,7 +16,7 @@ html {
 }
 
 h1 {
-  font-family: "Bevan", serif;
+  font-family: 'Bevan', serif;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -71,5 +71,5 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 0.3em;
+  margin: .3em;
 }
