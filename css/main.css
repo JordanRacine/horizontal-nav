@@ -1,11 +1,23 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
-  background-color: #79756f;
   line-height: 1.5;
-  font-family: "Bevan", cursive;
-  text-align: center;
+  background-color: #dbd6cf;
+  border: 3px solid #595652;
 }
 
-.planets {
-  color: #fff;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Bevian", serif;
+  color: #fff
+  text-align: center;
+  margin: 0;
 }
